@@ -9,6 +9,7 @@ public class HelloWorld {
         System.out.println("What is your name?");
         String name = input.nextLine();
         System.out.println("Hello, " + name + "!");
+        System.out.println("The date is:");
 
         System.out.println(new Date());
     }
